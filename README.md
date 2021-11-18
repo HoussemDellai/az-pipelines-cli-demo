@@ -26,7 +26,7 @@ Format the output to a table format instead of JSON:
 ```bash
 az pipelines list -o table
 ```
-List variables from a specific pipeline:
+List variables from a specific pipeline (please change with your own parameter):
 ```bash
 az pipelines variable list --pipeline-name "CI-Pipeline-MultiJobs"
 ```
